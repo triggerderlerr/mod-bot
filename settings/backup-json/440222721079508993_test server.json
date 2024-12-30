@@ -1,0 +1,1117 @@
+{
+    "name": "Test Server",
+    "verificationLevel": 1,
+    "explicitContentFilter": 0,
+    "systemChannel": null,
+    "premiumProgressBarEnabled": false,
+    "defaultMessageNotifications": 1,
+    "afk": null,
+    "widget": {
+        "enabled": null,
+        "channel": null
+    },
+    "autoModerationRules": [
+        {
+            "name": "Bahsetme Spam'lemeyi Engelle",
+            "eventType": 1,
+            "triggerType": 5,
+            "triggerMetadata": {
+                "keywordFilter": [],
+                "regexPatterns": [],
+                "presets": [],
+                "allowList": [],
+                "mentionTotalLimit": 20,
+                "mentionRaidProtectionEnabled": false
+            },
+            "actions": [
+                {
+                    "type": 1,
+                    "metadata": {
+                        "durationSeconds": null,
+                        "channelId": null,
+                        "customMessage": null
+                    }
+                }
+            ],
+            "enabled": true,
+            "exemptRoles": [],
+            "exemptChannels": []
+        },
+        {
+            "name": "Genellikle İşaretlenen Kelimeleri Engelle",
+            "eventType": 1,
+            "triggerType": 4,
+            "triggerMetadata": {
+                "keywordFilter": [],
+                "regexPatterns": [],
+                "presets": [
+                    1,
+                    3
+                ],
+                "allowList": [],
+                "mentionTotalLimit": null,
+                "mentionRaidProtectionEnabled": false
+            },
+            "actions": [
+                {
+                    "type": 1,
+                    "metadata": {
+                        "durationSeconds": null,
+                        "channelId": null,
+                        "customMessage": null
+                    }
+                }
+            ],
+            "enabled": true,
+            "exemptRoles": [],
+            "exemptChannels": []
+        }
+    ],
+    "channels": {
+        "categories": [
+            {
+                "name": "INFORMATION",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Unregistered",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "1881-193∞",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "INFORMATION",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1293594413125337139",
+                                "userId": "1261106222149402695",
+                                "username": "Xenos Bot",
+                                "avatar": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Test Server - Ban Listesi",
+                                        "description": "Sunucunuzda Banlanan Kimse Yok!",
+                                        "color": 15548997,
+                                        "content_scan_version": 0
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-10-09T15:22:21.911Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143613320564787"
+                    },
+                    {
+                        "type": 0,
+                        "name": "rules",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "INFORMATION",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1302325803346034841",
+                                "userId": "1261106222149402695",
+                                "username": "Xenos Bot",
+                                "avatar": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "description": "### Kanal Bilgisi:\nAdı: **🟢 1 ⛔ 0 🌙 0 ⚫ 2**\nMention: <#1291533780837732403>\nID: **1291533780837732403**",
+                                        "color": 16044786,
+                                        "fields": [
+                                            {
+                                                "name": "Öncesi",
+                                                "value": "🟢 1 ⛔ 1 🌙 0 ⚫ 1",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Sonrası",
+                                                "value": "🟢 1 ⛔ 0 🌙 0 ⚫ 2",
+                                                "inline": true
+                                            },
+                                            {
+                                                "name": "Zaman",
+                                                "value": "<t:1730569067:R>",
+                                                "inline": true
+                                            }
+                                        ],
+                                        "author": {
+                                            "name": "Xenos Bot | Yeni Kanal Adı",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif?size=4096",
+                                            "proxy_icon_url": "https://images-ext-1.discordapp.net/external/wTz5jS_ZjizbtfQoSEEeeyMFpa9lSIPjbxCtCoYMhWc/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif"
+                                        },
+                                        "thumbnail": {
+                                            "url": "https://cdn.discordapp.com/emojis/1138482145673871400.webp?size=96&quality=lossless",
+                                            "proxy_url": "https://images-ext-1.discordapp.net/external/BxoDugCIiU3csQBy8PqOog9Pv9VyNqyHaqp_iDweMEA/%3Fsize%3D96%26quality%3Dlossless/https/cdn.discordapp.com/emojis/1138482145673871400.webp",
+                                            "width": 96,
+                                            "height": 96
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-11-02T17:37:47.561Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143617833635840"
+                    },
+                    {
+                        "type": 0,
+                        "name": "announcements",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "INFORMATION",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143619976794132"
+                    },
+                    {
+                        "type": 0,
+                        "name": "etkinlik-duyuru",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "INFORMATION",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143621935530057"
+                    },
+                    {
+                        "type": 0,
+                        "name": "sdad",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "INFORMATION",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1302450048151322635",
+                                "userId": "1299172263702036610",
+                                "username": "Revers Logs",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "AddMoney",
+                                        "description": "**triggerderler (citizenid: XTA40464 | id: 2)** $7900 (bank) added, new bank balance: 1880263 reason: paycheck",
+                                        "color": 65309,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://img.imgyukle.com/2024/10/28/CNgtkc.png",
+                                            "proxy_icon_url": "https://images-ext-1.discordapp.net/external/FWch4g5ru97dlA2KLWLyNLY0_yEyDzYNnAULJvxqH1M/https/img.imgyukle.com/2024/10/28/CNgtkc.png"
+                                        },
+                                        "footer": {
+                                            "text": "Sun Nov  3 04:51:02 2024"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-11-03T01:51:29.831Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1299172231267614730"
+                    }
+                ]
+            },
+            {
+                "name": "VOICE CHANNELS",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "36701696",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Unregistered",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 2,
+                        "name": "Odaya Katıl",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "VOICE CHANNELS",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "36701696",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "oldId": "1282143626595663892"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Espresso Martini",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "VOICE CHANNELS",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "36701696",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "oldId": "1282143628831232150"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Dark N Stormy",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "VOICE CHANNELS",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "36701696",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "oldId": "1282143630840037429"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Join to Create",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "VOICE CHANNELS",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "36701696",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "oldId": "1282143632765222984"
+                    }
+                ]
+            },
+            {
+                "name": "Text Channels",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "3148800",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Unregistered",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "server-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Text Channels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3148800",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1294167139032498216",
+                                "userId": "1261106222149402695",
+                                "username": "Xenos Bot",
+                                "avatar": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                "content": "Botun Aktifliği Başarıyla /yardım Olarak Ayarlandı.",
+                                "embeds": [],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-10-11T05:18:10.408Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143637223772222"
+                    },
+                    {
+                        "type": 0,
+                        "name": "bot-commands",
+                        "nsfw": true,
+                        "rateLimitPerUser": 0,
+                        "parent": "Text Channels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2147486720",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1302450069223510016",
+                                "userId": "1261106222149402695",
+                                "username": "Xenos Bot",
+                                "avatar": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                "content": "Yedek oluşturuluyor..",
+                                "embeds": [],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-11-03T01:51:34.855Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143639929356359"
+                    },
+                    {
+                        "type": 0,
+                        "name": "photo-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Text Channels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3148800",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143641942491227"
+                    },
+                    {
+                        "type": 0,
+                        "name": "free-games",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Text Channels",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3148800",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1301222842725175338",
+                                "userId": "1261106222149402695",
+                                "username": "Xenos Bot",
+                                "avatar": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                "content": "https://cdn.discordapp.com/avatars/440222721079508993/c85f55bb873d7a5df291fe17f28e8000.webp?size=1024",
+                                "embeds": [
+                                    {
+                                        "type": "image",
+                                        "url": "https://cdn.discordapp.com/avatars/440222721079508993/c85f55bb873d7a5df291fe17f28e8000.webp?size=1024",
+                                        "thumbnail": {
+                                            "url": "https://cdn.discordapp.com/avatars/440222721079508993/c85f55bb873d7a5df291fe17f28e8000.webp?size=1024",
+                                            "proxy_url": "https://images-ext-1.discordapp.net/external/Uhv1OPto9Qa5CdGXBBERjfolPzyRA7VbmLE79qr_jiA/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/440222721079508993/c85f55bb873d7a5df291fe17f28e8000.webp",
+                                            "width": 1024,
+                                            "height": 1024,
+                                            "placeholder": "TygGBwL5YGplpWdpl4ZYiHh2tw20y1AK",
+                                            "placeholder_version": 1
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-10-30T16:35:01.257Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143644228522024"
+                    }
+                ]
+            },
+            {
+                "name": "PRIVATE'S",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "36703232",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Unregistered",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 2,
+                        "name": "Private¹",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "PRIVATE'S",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "36703232",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "oldId": "1282143648070242308"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Private²",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "PRIVATE'S",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "36703232",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "oldId": "1282143650759053403"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Private³",
+                        "bitrate": 64000,
+                        "userLimit": 3,
+                        "parent": "PRIVATE'S",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "36703232",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "oldId": "1282143652780441711"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Private⁴",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "PRIVATE'S",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "36703232",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "oldId": "1282143654730924053"
+                    }
+                ]
+            },
+            {
+                "name": "REGISTER",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Register-Staff",
+                        "allow": "2180058112",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Unregistered",
+                        "allow": "3148800",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "register-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "REGISTER",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Register-Staff",
+                                "allow": "2180058112",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "3148800",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1291548696244129905",
+                                "userId": "1261106222149402695",
+                                "username": "Xenos Bot",
+                                "avatar": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "**Test Server** - Yardım Menüsü!",
+                                        "description": "**・Moderasyon Sistemi ↷**\n\n> /ban-list - **Banlı Kullanıcıları Gösterir!**\n> /ban - **Bir Üyeyi Yasaklarsın!**\n> /emojiler - **Emojileri Görürsün!**\n> /forceban - **ID İle Bir Kullanıcıyı Yasaklarsın!**\n> /giriş-çıkış - **Giriş çıkış kanalını ayarlarsın!**\n> /kanal-açıklama - **Kanalın Açıklamasını Değiştirirsin!**\n> /kick - **Bir Üyeyi Atarsın!**\n> /oylama - **Oylama Açarsın!**\n> /rol-yönet - **Rol Alırsın/Verirsin**\n> /rol-oluştur - **Rol Oluşturursun!**\n> /rol-ver - **Rol Verirsin!**\n> /sa-as - **Selam Sistemine Bakarsın!**\n> /sil - **Mesaj Silersin!**\n> /unban - **Bir üyenin yasağını kaldırırsın!**\n> /zamanaşımı - **Bir üyeye zaman aşımı uygularsın.**\n> /stats-ayarla - **Sunucunun aktifliğini kanallarda gösterir.**\n> /stats - **Stats sistemini Açar/Kapatır.**\n> /yavaş-mod - **Kanalın Yavaş Modunu Ayarlarsın.**\n> /embed-yaz - **Bir embed mesaj gönderir.**\n> /emoji-oluştur - **Yeni Bir Emoji Eklersin.**\n> /genel-durum - **Database Verilerini Gösterir.**\n> /kilitle - **Bulunduğun Kanalı Kilitlersin.**\n> /nuke - **Kanalı Siler ve Kopyasını Oluşturur.**",
+                                        "color": 12800668,
+                                        "thumbnail": {
+                                            "url": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                            "proxy_url": "https://images-ext-1.discordapp.net/external/S8WPQI03iIkrU4DW5NsuuTn-GBWM0wtrRK1DIvTCiyg/https/cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                            "width": 128,
+                                            "height": 128
+                                        },
+                                        "footer": {
+                                            "text": "Komutu kullanan yetkili: triggerderler#0",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/440222721079508993/c85f55bb873d7a5df291fe17f28e8000.webp",
+                                            "proxy_icon_url": "https://images-ext-1.discordapp.net/external/QxLmSccYOxU7yHsnudaoLWLEuyDa7LpAyoiAFr0xMH4/https/cdn.discordapp.com/avatars/440222721079508993/c85f55bb873d7a5df291fe17f28e8000.webp"
+                                        }
+                                    }
+                                ],
+                                "components": [
+                                    {
+                                        "type": 1,
+                                        "id": 1,
+                                        "components": [
+                                            {
+                                                "type": 3,
+                                                "id": 2,
+                                                "custom_id": "select-menu",
+                                                "placeholder": "Bir komut listesi seç.",
+                                                "min_values": 1,
+                                                "max_values": 1,
+                                                "options": [
+                                                    {
+                                                        "label": "MODERASYON Komutları",
+                                                        "value": "ymoderasyon"
+                                                    },
+                                                    {
+                                                        "label": "KAYIT Komutları",
+                                                        "value": "ykayıt"
+                                                    },
+                                                    {
+                                                        "label": "KULLANICI Komutları",
+                                                        "value": "ykullanıcı"
+                                                    },
+                                                    {
+                                                        "label": "LOGS Komutları",
+                                                        "value": "ylogs"
+                                                    },
+                                                    {
+                                                        "label": "GUARD Komutları",
+                                                        "value": "yguard"
+                                                    },
+                                                    {
+                                                        "label": "BACKUP Komutları",
+                                                        "value": "ybackup"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-10-03T23:53:24.999Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1282143658887352322"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Voice Confirm¹",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "REGISTER",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Register-Staff",
+                                "allow": "2180058112",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "3148800",
+                                "deny": "0"
+                            }
+                        ],
+                        "oldId": "1282143660950949950"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Voice Confirm²",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "REGISTER",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Register-Staff",
+                                "allow": "2180058112",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "3148800",
+                                "deny": "0"
+                            }
+                        ],
+                        "oldId": "1282143663480242290"
+                    },
+                    {
+                        "type": 2,
+                        "name": "Voice Confirm³",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "REGISTER",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Register-Staff",
+                                "allow": "2180058112",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "3148800",
+                                "deny": "0"
+                            }
+                        ],
+                        "oldId": "1282143665384329248"
+                    },
+                    {
+                        "type": 2,
+                        "name": "💜 Toplam 3",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "REGISTER",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Register-Staff",
+                                "allow": "2180058112",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "3148800",
+                                "deny": "0"
+                            }
+                        ],
+                        "oldId": "1291533725397553223"
+                    },
+                    {
+                        "type": 2,
+                        "name": "💜 Uye 2",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "REGISTER",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Register-Staff",
+                                "allow": "2180058112",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "3148800",
+                                "deny": "0"
+                            }
+                        ],
+                        "oldId": "1291533743034601482"
+                    },
+                    {
+                        "type": 2,
+                        "name": "🤖 Bot - 1",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "REGISTER",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Register-Staff",
+                                "allow": "2180058112",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "3148800",
+                                "deny": "0"
+                            }
+                        ],
+                        "oldId": "1291533768548548619"
+                    },
+                    {
+                        "type": 2,
+                        "name": "🟢 1 ⛔ 0 🌙 0 ⚫ 2",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "REGISTER",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Register-Staff",
+                                "allow": "2180058112",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Unregistered",
+                                "allow": "3148800",
+                                "deny": "0"
+                            }
+                        ],
+                        "oldId": "1291533780837732403"
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "oldId": "1282143591065583668",
+            "name": "🔱",
+            "color": "#000000",
+            "icon": null,
+            "hoist": false,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143589035544587",
+            "name": "♀",
+            "color": "#fc43b2",
+            "icon": null,
+            "hoist": false,
+            "permissions": "37031489",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143595968598131",
+            "name": "Founder Of Server",
+            "color": "#fe0f00",
+            "icon": null,
+            "hoist": true,
+            "permissions": "37031425",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143590025265233",
+            "name": "Unregistered",
+            "color": "#e67e22",
+            "icon": null,
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143597369757748",
+            "name": "Register-Staff",
+            "color": "#000000",
+            "icon": null,
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143598992818196",
+            "name": "♂",
+            "color": "#99ffff",
+            "icon": null,
+            "hoist": false,
+            "permissions": "37031489",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143592143654996",
+            "name": "Family Of Server",
+            "color": "#09ddff",
+            "icon": null,
+            "hoist": true,
+            "permissions": "96731136",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143600347578479",
+            "name": "Vip",
+            "color": "#fff200",
+            "icon": null,
+            "hoist": true,
+            "permissions": "37031489",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143593754267648",
+            "name": "Poseidon",
+            "color": "#3400ff",
+            "icon": null,
+            "hoist": true,
+            "permissions": "37030465",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143601089970313",
+            "name": "Gods of the Server",
+            "color": "#00a9ff",
+            "icon": null,
+            "hoist": true,
+            "permissions": "104320577",
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143594911895573",
+            "name": "Server-Bots",
+            "color": "#ffffff",
+            "icon": null,
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "oldId": "1282143603153698817",
+            "name": "Athena",
+            "color": "#e91e63",
+            "icon": null,
+            "hoist": true,
+            "permissions": "37031489",
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "oldId": "826931771139686421",
+            "name": "@everyone",
+            "color": "#000000",
+            "icon": null,
+            "hoist": false,
+            "permissions": "1688849897294337",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1730598694800,
+    "messagesPerChannel": 1,
+    "guildID": "826931771139686421",
+    "id": "440222721079508993_test server"
+}

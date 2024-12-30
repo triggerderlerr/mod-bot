@@ -1,0 +1,933 @@
+{
+    "name": "'๖̶̶̶ζ͜͡Trigger kullanıcısının sunucusu",
+    "verificationLevel": 0,
+    "explicitContentFilter": 0,
+    "systemChannel": null,
+    "premiumProgressBarEnabled": false,
+    "defaultMessageNotifications": 0,
+    "afk": null,
+    "widget": {
+        "enabled": null,
+        "channel": null
+    },
+    "autoModerationRules": [],
+    "channels": {
+        "categories": [
+            {
+                "name": "LOGS",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "3072",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "default",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1314204766452060232",
+                                "userId": "1311143437055299665",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "/do",
+                                        "description": "Oyuncu ID: 3\nOyuncu İsmi: triggerderler\nDiscord Adı: Bilinmiyor\nDiscord ID: Bilinmiyor\nSteam Hex ID: steam:11000013937545b\nRockstar Lisansı: license:45c9c02154e95d2975ed602f9d16d5cf76d65961\nİşlem:  sa  ((Lin Watson))",
+                                        "color": 16743168,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "05 Aralık 2024 15:20:33"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-05T12:20:33.066Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143410958205000"
+                    },
+                    {
+                        "type": 0,
+                        "name": "ambulancejob",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143411360858173"
+                    },
+                    {
+                        "type": 0,
+                        "name": "playermoney",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1314965477830819840",
+                                "userId": "1311143646547939399",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Para Ekleme",
+                                        "description": "İşlem: \n**Oyuncu ID:** 1\n**Oyuncu Adı:** triggerderler\n**CitizenID:** XTA40464\n**License:** license:45c9c02154e95d2975ed602f9d16d5cf76d65961\n**Discord:** Bulunamadı\n**Eylem:** Para Ekleme\n**Para Türü:** Banka\n**Eklenen Miktar:** $14000\n**Eski Bakiye:** $58260\n**Yeni Bakiye:** $72260\n**Sebep:** paycheck",
+                                        "color": 25087,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "07 Aralık 2024 17:43:20"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-07T14:43:20.792Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143412082147358"
+                    },
+                    {
+                        "type": 0,
+                        "name": "robbing",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143413122596917"
+                    },
+                    {
+                        "type": 0,
+                        "name": "cuffing",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143413495894017"
+                    },
+                    {
+                        "type": 0,
+                        "name": "banking",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143417367101502"
+                    },
+                    {
+                        "type": 0,
+                        "name": "vehicleshop",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143418054840370"
+                    },
+                    {
+                        "type": 0,
+                        "name": "vehicleupgrades",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143418701021214"
+                    },
+                    {
+                        "type": 0,
+                        "name": "shops",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1312736978361651263",
+                                "userId": "1241258551725391913",
+                                "username": "test bot trigger",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "API yanıt vermedi. Lütfen daha sonra tekrar deneyin.",
+                                "embeds": [],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-01T11:08:05.115Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143419527168061"
+                    },
+                    {
+                        "type": 0,
+                        "name": "dealers",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143419699265581"
+                    },
+                    {
+                        "type": 0,
+                        "name": "storerobbery",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143420798042112"
+                    },
+                    {
+                        "type": 0,
+                        "name": "bankrobbery",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143427269988353"
+                    },
+                    {
+                        "type": 0,
+                        "name": "powerplants",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143427894808588"
+                    },
+                    {
+                        "type": 0,
+                        "name": "death",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1314954889641726033",
+                                "userId": "1311145611059396689",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Öldürme Logu",
+                                        "description": "Oyuncu ID: 1\nOyuncu İsmi: triggerderler\nDiscord Adı: Bilinmiyor\nDiscord ID: Bilinmiyor\nSteam Hex ID: steam:11000013937545b\nRockstar Lisansı: license:45c9c02154e95d2975ed602f9d16d5cf76d65961\nİşlem: \nKoordinatlar: vec3(-182.677856, 106.837181, 70.075058)\nSilah: Fall (weapon_fall)\nÖldüren: Bilinmiyor\nÖlen: triggerderler (1)\nÖlüm Nedeni: Bilinmeyen neden",
+                                        "color": 16711680,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "07 Aralık 2024 17:01:16"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-07T14:01:16.371Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143428452515911"
+                    },
+                    {
+                        "type": 0,
+                        "name": "joinleave",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "oldId": "1315393101292109906",
+                                "userId": "1261106222149402695",
+                                "username": "Xenos Bot",
+                                "avatar": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                "content": "Yedek oluşturuluyor..",
+                                "embeds": [],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-08T19:02:34.170Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143429052567583"
+                    },
+                    {
+                        "type": 0,
+                        "name": "ooc",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143429849223260"
+                    },
+                    {
+                        "type": 0,
+                        "name": "report",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143430369575002"
+                    },
+                    {
+                        "type": 0,
+                        "name": "me",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143430667370607"
+                    },
+                    {
+                        "type": 0,
+                        "name": "pmelding",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143431682130001"
+                    },
+                    {
+                        "type": 0,
+                        "name": "112",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143432302886962"
+                    },
+                    {
+                        "type": 0,
+                        "name": "bans",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143432516927550"
+                    },
+                    {
+                        "type": 0,
+                        "name": "anticheat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143433414512650"
+                    },
+                    {
+                        "type": 0,
+                        "name": "weather",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143433913634848"
+                    },
+                    {
+                        "type": 0,
+                        "name": "moneysafes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143434911875194"
+                    },
+                    {
+                        "type": 0,
+                        "name": "esyaverdirme",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143435943804999"
+                    },
+                    {
+                        "type": 0,
+                        "name": "bennys",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LOGS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143436203724893"
+                    }
+                ]
+            },
+            {
+                "name": "Envanter Logs",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "item-glovebox",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Envanter Logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "oldId": "1314958775815245874",
+                                "userId": "1311144807527350344",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Torpidodan Eşya Alma",
+                                        "description": "İşlem: \nOyuncu Adı: triggerderler\nOyuncu ID: 1\nİsim Soyisim: Lin Watson\nCitizenID: IKH85765\nLicense: license:45c9c02154e95d2975ed602f9d16d5cf76d65961\nSteamID: steam:11000013937545b\nEylem: Torpidodan Eşya Alma\nKaynak: 69YPB120\nHedef: triggerderler\nEşya: phone\nMiktar: 1\nGüncel Envanter:\n```phone x1```",
+                                        "color": 16711680,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "07 Aralık 2024 17:16:42"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-07T14:16:42.907Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143416742150144"
+                    },
+                    {
+                        "type": 0,
+                        "name": "item-drop",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Envanter Logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "oldId": "1313130453036826728",
+                                "userId": "1311144208949579806",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Yere Eşya Atma",
+                                        "description": "İşlem: \nOyuncu Adı: triggerderler\nOyuncu ID: 1\nİsim Soyisim: Lin Watson\nCitizenID: IKH85765\nLicense: license:45c9c02154e95d2975ed602f9d16d5cf76d65961\nSteamID: steam:11000013937545b\nEylem: Yere Eşya Atma\nKaynak: triggerderler\nHedef: Drop 452052\nEşya: phone\nMiktar: 1\nGüncel Envanter:\n```WEAPON_PISTOL x1\nphone x1```",
+                                        "color": 16743168,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "02 Aralık 2024 16:11:37"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-02T13:11:36.788Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143414464516258"
+                    },
+                    {
+                        "type": 0,
+                        "name": "item-pick",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Envanter Logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "oldId": "1313862677646413976",
+                                "userId": "1311147385224691802",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Yerden Eşya Aldı",
+                                        "description": "İşlem: \nOyuncu Adı: triggerderler\nOyuncu ID: 1\nİsim Soyisim: Lin Watson\nCitizenID: IKH85765\nLicense: license:45c9c02154e95d2975ed602f9d16d5cf76d65961\nSteamID: steam:11000013937545b\nEylem: Yerden Eşya Aldı\nKaynak: Drop 264473\nHedef: triggerderler\nEşya: markedbills\nMiktar: 100\nGüncel Envanter:\n```markedbills x100```",
+                                        "color": 16743168,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "04 Aralık 2024 16:41:13"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-04T13:41:12.739Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143438825291869"
+                    },
+                    {
+                        "type": 0,
+                        "name": "item-stash",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Envanter Logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143415765008477"
+                    },
+                    {
+                        "type": 0,
+                        "name": "item-trunk",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Envanter Logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143415450304542"
+                    },
+                    {
+                        "type": 0,
+                        "name": "item-remove",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Envanter Logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "oldId": "1314185959486521395",
+                                "userId": "1311149486118010930",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Eşya Çıkarma",
+                                        "description": "İşlem: \nOyuncu ID: 2\nOyuncu Citizen: XTA40464\nOyuncu License: license:45c9c02154e95d2975ed602f9d16d5cf76d65961\nSilinen Eşya: markedbills\nMiktar: 100\nSlot: Belirtilmedi\nGüncel Envanter:\n```money : 25001 Adet```",
+                                        "color": 16711680,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "05 Aralık 2024 14:05:49"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-05T11:05:49.136Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143437315215423"
+                    },
+                    {
+                        "type": 0,
+                        "name": "item-add",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Envanter Logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "oldId": "1314954866246029417",
+                                "userId": "1311148269929496636",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Eşya Eklendi",
+                                        "description": "İşlem: \nOyuncu Adı: triggerderler\nOyuncu ID: 1\nİsim Soyisim: Lin Watson\nCitizenID: XTA40464\nLicense: license:45c9c02154e95d2975ed602f9d16d5cf76d65961\nDiscord: Bulunamadı\nEylem: Eşya başarıyla envantere eklendi.\nEşya: phone\nMiktar: 1\nKoordinatlar: -178.68, 103.02, 70.14\nGüncel Envanter:\n```fishingrod x1\nfishbait x1\nsharktiger x3\nid_card x1\nmoney x24701\nphone x1```",
+                                        "color": 25087,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "07 Aralık 2024 17:01:10"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-07T14:01:10.793Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311143438187630592"
+                    },
+                    {
+                        "type": 0,
+                        "name": "item-invclear",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Envanter Logs",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "oldId": "1313880430621102100",
+                                "userId": "1311688703822921798",
+                                "username": "Revers Log System",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/0.png",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "title": "Envanter Temizleme",
+                                        "description": "İşlem: \nOyuncu Adı: triggerderler\nOyuncu ID: 1\nİsim Soyisim: Lin Watson\nCitizenID: XTA40464\nLicense: license:45c9c02154e95d2975ed602f9d16d5cf76d65961\nDiscord: discord:440222721079508993\nEylem: Silinen Eşyalar:\n- **Eşya:** markedbills | **Miktar:** 26\n- **Eşya:** money | **Miktar:** 974\nEşya: Tüm Eşyalar\nMiktar: 0\nKoordinatlar: 3798.26, 4459.33, 4.98\nGüncel Envanter:\n``````",
+                                        "color": 25087,
+                                        "author": {
+                                            "name": "Revers Logs",
+                                            "icon_url": "https://cdn.discordapp.com/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&",
+                                            "proxy_icon_url": "https://media.discordapp.net/attachments/1188118049887367168/1227564017153740882/logo.png?ex=6756c494&is=67557314&hm=7ada802e9de25d394eb41591fc919b9434d26bf887daf19f5cf08b3329f7f91a&"
+                                        },
+                                        "footer": {
+                                            "text": "04 Aralık 2024 17:51:45"
+                                        }
+                                    }
+                                ],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-12-04T14:51:45.378Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1311688684457689198"
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "oldId": "1311142919897481306",
+            "name": "@everyone",
+            "color": "#000000",
+            "icon": null,
+            "hoist": false,
+            "permissions": "2248473465835073",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1733684554128,
+    "messagesPerChannel": 1,
+    "guildID": "1311142919897481306",
+    "id": "440222721079508993_log-server"
+}

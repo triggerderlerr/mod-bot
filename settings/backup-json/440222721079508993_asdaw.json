@@ -1,0 +1,71 @@
+{
+    "name": "sadasd",
+    "verificationLevel": 1,
+    "explicitContentFilter": 0,
+    "systemChannel": null,
+    "premiumProgressBarEnabled": false,
+    "defaultMessageNotifications": 1,
+    "afk": null,
+    "widget": {
+        "enabled": null,
+        "channel": null
+    },
+    "autoModerationRules": [],
+    "channels": {
+        "categories": [
+            {
+                "name": "sada",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": 0,
+                        "name": "asdsad",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "sada",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [
+                            {
+                                "oldId": "1292088853313617930",
+                                "userId": "1261106222149402695",
+                                "username": "Xenos Bot",
+                                "avatar": "https://cdn.discordapp.com/avatars/1261106222149402695/a_a450d82e53a33750f4fc49691872a772.gif",
+                                "content": "Yedek oluşturuluyor..",
+                                "embeds": [],
+                                "components": [],
+                                "files": [],
+                                "pinned": false,
+                                "sentAt": "2024-10-05T11:39:48.480Z"
+                            }
+                        ],
+                        "isNews": false,
+                        "threads": [],
+                        "oldId": "1292086692974563440"
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "oldId": "1292077311734190213",
+            "name": "@everyone",
+            "color": "#000000",
+            "icon": null,
+            "hoist": false,
+            "permissions": "1834195848855616",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "members": [],
+    "createdTimestamp": 1728128388554,
+    "messagesPerChannel": 1,
+    "guildID": "1292077311734190213",
+    "id": "440222721079508993_asdaw"
+}
